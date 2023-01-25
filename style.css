@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height:75px;
+    width: 100%;
+    padding: 0 100px;
+    line-height: 75px;
+    background-color: gray;
+}
+.nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    float: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav ul{
+    float: right;
+
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.nav ul li a{
+    font-size:18px;
+    text-transform:uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    color: blue;
+    transition:all 0.4s ease 0s;
+}
+.conatiner-box{
+    height:100vh;
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.fitem{
+    height: 100px;
+    width: 110px;
+    background: rgb(222, 10, 10);
+    border: 2px solid blue;
+    margin: 10px;
+    justify-content: center;
+}
